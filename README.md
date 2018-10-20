@@ -44,6 +44,8 @@
 
 
 ## 開発内容・開発技術
+[![Product Name](readme_img/beforeafter.pdf)]
+
 ### 活用した技術
 #### API・データ
 * Messging API (LINE様)
