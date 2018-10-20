@@ -54,7 +54,7 @@
 
 #### フレームワーク・ライブラリ・モジュール
 * Python(Raspberry Piのクライアント)
-* Open CV(画像処理)
+* [Open CV(画像処理)](https://opencv.org/)
 
 #### デバイス
 * [Raspberry pi Zero WH](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
