@@ -1,12 +1,12 @@
 # サンプル（プロダクト名）
 
-([![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk))
+[![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
 
 ## 製品概要
 ### 片付け X Tech
 
 ### 背景（製品開発のきっかけ、課題等）
-ここに
+
 - こんかいのプロダクトの開発に至った背景
 - 着目した顧客・顧客の課題・現状
 を記入してください
