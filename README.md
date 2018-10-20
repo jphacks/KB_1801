@@ -44,7 +44,7 @@
 
 
 ## 開発内容・開発技術
-[[Product Name](readme_img/beforeafter.pdf)]
+[[Product Name](readme_img/beforeafter.png)]
 
 ### 活用した技術
 #### API・データ
