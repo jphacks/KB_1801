@@ -50,7 +50,7 @@
 ### 活用した技術
 #### API・データ
 * [Messging API (LINE様)](https://developers.line.me/ja/services/messaging-api/)
-* Clova Extention Kit (CEK) (LINE様)
+* [Clova Extention Kit (CEK) (LINE様)](https://clova-developers.line.me/#/)
 
 #### フレームワーク・ライブラリ・モジュール
 * Python(Raspberry Piのクライアント)
