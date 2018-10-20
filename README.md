@@ -45,7 +45,7 @@
 
 ## 開発内容・開発技術
 ![[Product Name](/readme_img/beforeafter.png)]
-#![エビフライトライアングル](http://i.imgur.com/Jjwsc.jpg "サンプル")
+![エビフライトライアングル](http://i.imgur.com/Jjwsc.jpg "サンプル")
 
 ### 活用した技術
 #### API・データ
