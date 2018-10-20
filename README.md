@@ -1,4 +1,4 @@
-# サンプル（プロダクト名）
+# 片付けRIZAP
 ~　まだ片付けで消耗してるの？　~
 
 [![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
