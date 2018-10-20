@@ -1,6 +1,6 @@
 # サンプル（プロダクト名）
 
-[![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
+([![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk))
 
 ## 製品概要
 ### 片付け X Tech
