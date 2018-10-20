@@ -57,7 +57,7 @@
 * Open CV(画像処理)
 
 #### デバイス
-* Raspberry pi Zero WH
+* [Raspberry pi Zero WH](https://www.raspberrypi.org/)
 * Raspberry Pi カメラモジュール
 
 ### 研究内容・事前開発プロダクト（任意）
