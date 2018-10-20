@@ -49,7 +49,7 @@
 
 ### 活用した技術
 #### API・データ
-* Messging API (LINE様)
+* [Messging API (LINE様)](https://developers.line.me/ja/services/messaging-api/)
 * Clova Extention Kit (CEK) (LINE様)
 
 #### フレームワーク・ライブラリ・モジュール
