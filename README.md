@@ -4,7 +4,7 @@
 [![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
 
 ## 製品概要
-### 片付け X Tech
+### 「片付け」 X 「Tech」
 
 ### 背景（製品開発のきっかけ、課題等）
 「部屋の片付けのしつけ」は親にとって重要な仕事です．
