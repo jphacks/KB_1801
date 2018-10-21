@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/21073221/47261384-0760b380-d509-11e8-9e17-7ba1fab4ad18.png)
 
 # プロモーションビデオ
-[![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
+[![Product Name](image.png)](https://youtu.be/UL3A2Y659nU)
 
 ## 製品概要
 ### 「片付け」 X 「Tech」
