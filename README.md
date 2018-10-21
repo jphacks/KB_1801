@@ -4,6 +4,7 @@
 # プロモーションビデオ
 ![Product Name](https://youtu.be/UL3A2Y659nU)
 
+[![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/21073221/47262029-d340bf00-d517-11e8-99de-264e7d1e4a1a.png)](https://youtu.be/UL3A2Y659nU)
 ## 製品概要
 ### 「片付け」 X 「Tech」
 
