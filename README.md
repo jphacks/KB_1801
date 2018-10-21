@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/21073221/47261384-0760b380-d509-11e8-9e17-7ba1fab4ad18.png)
 
 # プロモーションビデオ
-[![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/21073221/47262029-d340bf00-d517-11e8-99de-264e7d1e4a1a.png)](https://youtu.be/UL3A2Y659nU)
+[![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/21073221/47262029-d340bf00-d517-11e8-99de-264e7d1e4a1a.png)](https://youtu.be/El6NWfqYYBk)
 ## 製品概要
 ### 「片付け」 X 「Tech」
 
@@ -48,7 +48,9 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 
 ### 今後の展望
 ![image](https://user-images.githubusercontent.com/21073221/47262778-b1056c00-d52c-11e8-8d5b-2d0c3cc604f0.png)
-今回は実現できなかったが、今後改善すること、どのように展開していくことが可能かについて記載をしてください。
+
+#### STEP1
+
 
 「部屋の片付けのしつけ」は親にとって重要な仕事です．
 一方で，こどもの片付けの状態に「とても満足している」親はたった５％，　約７割の親が満足できていません［１］．
@@ -60,12 +62,8 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 
 - 着目した顧客・顧客の課題・現状
 女性の社会進出が進み，　子供のしつけにかけられる時間が少なくなっている．
-子供がうまいこと片付けができないことからネグレクトなどに発展するケースなども報告されている［2]
-
-
-［１］　子供の片付けに関するアンケート　（野村不動産アーバンネット株式会社）　http://www.nomura-un.co.jp/page/news/pdf/20150903.pdf
-[2]
-
+子供がうまいこと片付けができないことからネグレクトなどに発展するケースなども報告されている［５]
+[[５]](hhttp://www.nomura-un.co.jp/page/news/pdf/20150903.pdf) 子供の片付けに関するアンケート　（野村不動産アーバンネット株式会社） 
 
 ## 開発内容・開発技術
 ![image](https://user-images.githubusercontent.com/21073221/47262791-f6c23480-d52c-11e8-8783-f983efd47851.png)
@@ -85,8 +83,6 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 * Raspberry Pi カメラモジュール
 
 ### 研究内容・事前開発プロダクト（任意）
-ご自身やチームの研究内容や、事前に持ち込みをしたプロダクトがある場合は、こちらに実績なども含め記載をして下さい。
-
 * 関連する研究やプロダクトは特になし
 
 ### 独自開発技術（Hack Dayで開発したもの）
