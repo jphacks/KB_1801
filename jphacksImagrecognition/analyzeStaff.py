@@ -7,7 +7,24 @@ import pickle
 
 
 # 指定した画像(path)の物体を検出し、外接矩形の画像を出力します
+def remove_same_area(lectangle_areaArray_temp, judgement_coefficient):
+  eliminate_index = []
+  result = []
+  for index_org in range(len(lectangle_areaArray_temp)):
+    for inidex_compare in range(index_org + 1, len(lectangle_areaArray_temp)):
+      if -(lectangle_areaArray_temp[index_org][0][1] + lectangle_areaArray_temp[index_org][1][1])*judgement_coefficient + (lectangle_areaArray_temp[inidex_compare][0][1] + lectangle_areaArray_temp[inidex_compare][1][1]) > 0 or \
+          -(lectangle_areaArray_temp[inidex_compare][0][1] + lectangle_areaArray_temp[inidex_compare][1][1])*judgement_coefficient + (lectangle_areaArray_temp[index_org][0][1] - lectangle_areaArray_temp[index_org][1][1]) > 0 or \
+          -(lectangle_areaArray_temp[index_org][0][0] + lectangle_areaArray_temp[index_org][1][0])*judgement_coefficient + (lectangle_areaArray_temp[inidex_compare][0][0] + lectangle_areaArray_temp[inidex_compare][1][0]) > 0 or \
+              -(lectangle_areaArray_temp[inidex_compare][0][0] + lectangle_areaArray_temp[inidex_compare][1][0])*judgement_coefficient + (lectangle_areaArray_temp[index_org][0][0] - lectangle_areaArray_temp[index_org][1][0]) > 0:
+        #print(index_org)
+        eliminate_index.append(index_org)
+  #print(eliminate_index)
+  for index in range(len(lectangle_areaArray_temp)):
+    if index != eliminate_index[0]:
+      result.append(lectangle_areaArray_temp[index])
+      eliminate_index.pop(0)
 
+  return result
 
 def analyze_staff(path, judgement_coefficient):
 	with open('./info/sort_staff_list.pickle', mode='rb') as fi:
@@ -64,9 +81,10 @@ def analyze_staff(path, judgement_coefficient):
 				counter_lectangle_array += 1
 
 		#大きい長方形のみを残す
-		observed_lectangle_areaArray_temp = sorted(observed_lectangle_areaArray_temp, key=lambda x: x[2], reverse=True)
-		observed_lectangle_areaArray_new = [
-			observed_lectangle_areaArray_temp[i] for i in range(num_staff)]
+		observed_lectangle_areaArray_temp = sorted(observed_lectangle_areaArray_temp, key=lambda x: x[2])
+		remove_same_area(observed_lectangle_areaArray_temp, judgement_coefficient)
+		observed_lectangle_areaArray_new = [observed_lectangle_areaArray_temp[i] for i in range(
+                    len(observed_lectangle_areaArray_temp) - 1, len(observed_lectangle_areaArray_temp) - num_staff - 1, -1)]
 
 		#ここからモノがちゃんと片付けられているかどうか確認
 
@@ -79,8 +97,8 @@ def analyze_staff(path, judgement_coefficient):
 			print("片付けろぉぉ！！")
 			#To do ここで、textに0or1を書き込む
 			f = open('./info/judge.txt', 'w')  # 書き込みモードで開く
-  			f.write('1')  # 引数の文字列をファイルに書き込む
-  			f.close()  # ファイルを閉じる
+			f.write('1')
+			f.close()  # ファイルを閉じる
 
 
 		#違う
@@ -114,14 +132,14 @@ def analyze_staff(path, judgement_coefficient):
 				else:
 					print("片付けろおぉぉ！！！！")
 					f = open('./info/judge.txt', 'w')  # 書き込みモードで開く
-  					f.write('1')  # 引数の文字列をファイルに書き込む
-  					f.close()  # ファイルを閉じる
+					f.write('1')  # 引数の文字列をファイルに書き込む
+					f.close()  # ファイルを閉じる
 
 			if number_mach_lectangle == num_staff:
 				print("Okkkkk")
 				f = open('./info/judge.txt', 'w')  # 書き込みモードで開く
-			  	f.write('0')  # 引数の文字列をファイルに書き込む
-  				f.close()  # ファイルを閉じる
+				f.write('0')  # 引数の文字列をファイルに書き込む
+				f.close()  # ファイルを閉じる
 
 		
 		
@@ -129,4 +147,4 @@ def analyze_staff(path, judgement_coefficient):
 
 if __name__ == '__main__':
   judgement_coefficient = 1.2  
-  analyze_staff('./images2/IMG_5339.JPG', judgement_coefficient)
+  analyze_staff('./images2/ok4.JPG', judgement_coefficient)
