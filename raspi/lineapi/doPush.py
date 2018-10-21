@@ -47,8 +47,8 @@ def doPushImg():
 		'messages' : [
         {
             'type' : 'image', # 画像
-            'originalContentUrl' : "https://dotup.org/uploda/dotup.org1671762.jpg", # 画像のURL
-            'previewImageUrl' : "https://dotup.org/uploda/dotup.org1671762.jpg" # 画像のサムネール
+            'originalContentUrl' : "https://illust.download/wp-content/uploads/edd/2015/12/person10-1415x1000.jpg", # 画像のURL
+            'previewImageUrl' : "https://illust.download/wp-content/uploads/edd/2015/12/person10-1415x1000.jpg" # 画像のサムネール
         }
     ]
 	}

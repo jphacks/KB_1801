@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append('.\\vendor')
+sys.path.append('./vendor')
 
 from flask import Flask, request, abort
 
@@ -16,7 +16,7 @@ from linebot.models import (
 
 from linebot.models import ImageSendMessage
 
-from doPush import doPushMsg
+from doPush import doPushMsg, doPushImg
 
 app = Flask(__name__)
 
@@ -27,3 +27,4 @@ line_bot_api = LineBotApi('x4pWezs53vE0b0m+GLVI/c3/yu9VLshsmSbUoKNSjxtt7xxdwDpUN
 handler = WebhookHandler('3512a6339b8813c43b290be6d2b578d7')
 
 doPushMsg("Alart: Clean Yout Desk!!")
+doPushImg()

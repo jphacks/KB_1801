@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import datetime
 import sys
-sys.path.append('.\\vendor')
+sys.path.append('./vendor')
 
 from flask import Flask, request, abort
 
@@ -48,10 +48,10 @@ def callback():
 #使うイメージの読みこみ
 def make_image_message():
     messages = ImageSendMessage(
-        # original_content_url="https://illust.download/wp-content/uploads/edd/2015/12/person10-1415x1000.jpg", #JPEG 最大画像サイズ：240×240 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
-        original_content_url="https://dotup.org/uploda/dotup.org1671762.jpg", #JPEG 最大画像サイズ：240×240 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
-        # preview_image_url="https://illust.download/wp-content/uploads/edd/2015/12/person10-1415x1000.jpg" #JPEG 最大画像サイズ：1024×1024 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
-        preview_image_url="https://dotup.org/uploda/dotup.org1671762.jpg" #JPEG 最大画像サイズ：1024×1024 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
+        original_content_url="https://illust.download/wp-content/uploads/edd/2015/12/person10-1415x1000.jpg", #JPEG 最大画像サイズ：240×240 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
+        # original_content_url="https://dotup.org/uploda/dotup.org1671762.jpg", #JPEG 最大画像サイズ：240×240 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
+        preview_image_url="https://illust.download/wp-content/uploads/edd/2015/12/person10-1415x1000.jpg" #JPEG 最大画像サイズ：1024×1024 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
+        # preview_image_url="https://dotup.org/uploda/dotup.org1671762.jpg" #JPEG 最大画像サイズ：1024×1024 最大ファイルサイズ：1MB(注意:仕様が変わっていた)
     )
     return messages
 
