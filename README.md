@@ -48,7 +48,6 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 今後はこの「机ライフログ」を用いた信用評価システムなどにも展開できると考えています．
 
 ### 今後の展望（事業展開）
-![image](https://user-images.githubusercontent.com/21073221/47262778-b1056c00-d52c-11e8-8d5b-2d0c3cc604f0.png)
 ![image](https://user-images.githubusercontent.com/21073221/47263218-072bdc80-d538-11e8-8528-ce94e2d036d0.png)
 
 #### 事業展開１（「子供の片付けのしつけ」に展開）
