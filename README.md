@@ -68,7 +68,7 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 
 
 ## 開発内容・開発技術
-![image](https://user-images.githubusercontent.com/21073221/47256694-1753a580-d4bf-11e8-8d9a-6fc8924f095f.png)
+![image](https://user-images.githubusercontent.com/21073221/47262791-f6c23480-d52c-11e8-8783-f983efd47851.png)
 
 ### 活用した技術
 #### API・データ
