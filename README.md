@@ -47,7 +47,7 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 この製品を利用することによって最終的に解決できることについて記載をしてください。
 
 ### 今後の展望
-![image](https://user-images.githubusercontent.com/21073221/47256803-7fef5200-d4c0-11e8-9e7a-364dd6e5bfda.png)
+![image](https://user-images.githubusercontent.com/21073221/47262778-b1056c00-d52c-11e8-8d5b-2d0c3cc604f0.png)
 今回は実現できなかったが、今後改善すること、どのように展開していくことが可能かについて記載をしてください。
 
 「部屋の片付けのしつけ」は親にとって重要な仕事です．
