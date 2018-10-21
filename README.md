@@ -84,7 +84,7 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 ### 独自開発技術（Hack Dayで開発したもの）
 #### 2日間に開発した独自の機能・技術
 * RasPiによる画像の自動解析
-* 物体認識（被覆率の算出）
+* 物体認識（被覆率の算出と、ゆとりを持たせた物体位置の正誤判定）
 * LINEAPIを用いた片付け結果の通知
 * 特に力を入れた部分のファイルリンク（画像処理による散らかり度解析）
 https://github.com/jphacks/KB_1801/tree/master/jphacksImagrecognition
