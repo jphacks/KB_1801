@@ -94,7 +94,8 @@ RaspberryPiでスケジュール撮影した結果を用いて「机の被覆率
 * RasPiによる画像の自動解析
 * 物体認識（被覆率の算出）
 * LINEAPIを用いた片付け結果の通知
-* 特に力を入れた部分をファイルリンク、またはcommit_idを記載してください
+* 特に力を入れた部分のファイルリンク（画像処理による散らかり度解析）
+https://github.com/jphacks/KB_1801/tree/master/jphacksImagrecognition
 
 ![image](https://user-images.githubusercontent.com/21073221/47262947-9df49b00-d530-11e8-9535-9ba56a529333.png)
 
