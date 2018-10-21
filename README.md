@@ -1,9 +1,6 @@
 # 片付けRIZAP  -まだ片付けで消耗してるの？-
 ![image](https://user-images.githubusercontent.com/21073221/47261384-0760b380-d509-11e8-9e17-7ba1fab4ad18.png)
 
-![image](https://user-images.githubusercontent.com/21073221/47262961-dc8a5580-d530-11e8-91b8-cffd99664dde.png)
-
-
 # プロモーションビデオ
 [![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/21073221/47262029-d340bf00-d517-11e8-99de-264e7d1e4a1a.png)](https://youtu.be/UL3A2Y659nU)
 ## 製品概要
